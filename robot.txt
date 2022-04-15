@@ -215,7 +215,10 @@ DevOps & Continuous Testing
 	*** Inicializar:  VM Virtual - incializar
 	*** Putty: login - >> docker start jenkins   /  Verificar: docker ps
 6. OK
-7.
+7. Chave Publica do meu PC:
+C:\Users\zurie\.ssh
+git checkout -b arquivo_dep   - Criar branch
+pip install -r requirements.txt
 	
 	
 	
