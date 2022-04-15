@@ -1,0 +1,283 @@
+
+------------------------------------------------------------------------------------------------------ ROCKLOV
+Git Pull
+Login: ZurielJunior/RocklovSenha: TOKEN
+
+https://github.com/ZurielJunior/Rocklov
+
+TOKEN:
+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
+
+RESTAURAR DUPLA VERIFICAÇÃO:
+39ec9-0e2d20ea90-8f8fd5880e-e83d7c9e4c-232389f445-299f3b6a29-f55f70d76d-bcb6db6054-6aa4666207-1e4c678b4f-421a525ca7-c78ea7df1e-9db98f1eb9-bea9ce8df2-5a3dd2e96f-a88819f649-ba83b
+
+
+-------------------------------------------------------------------------------------------------------- DOCUMENTAÇÃO ROBOT:
+
+https://robotframework.org/#examples
+https://marketsquare.github.io/robotframework-browser/Browser.html#New%20Browser
+
+TEM DESCONTO COM MEU CPF 04244301690 - DEVE TER UNS r$ 200,00 REAIS - Vale 1 ano
+
+https://robotframework.org/
+
+SERPRO - ROBOT FRAMEWORK:
+https://radartecnologico.estaleiro.serpro.gov.br/?filter=Robot%20Framework&kh=true 
+
+
+
+*******************************************************************  SERPRO -INTEGRAÇÃO ALM
+https://dedat.gitpages.serpro/deat0/portal/roteiros/robot/
+LARA:
+bom dia... os caras de POA já integraram o Robot no gitlab-ci... ou seja, já dá pra rodar os testes a partir do git, sem precisar usar o Jenkins se não quiser.
+só usar essa imagem que já tem o Robot instalado: hub.estaleiro.serpro/pipeline/python:3-robot-4-debian
+
+
+-------------------------------------------------------------------------------------------------------- FIM DOCUMENTAÇÃO ROBOT
+
+
+
+
+
+--------------------------------------------------- CURSO PAGO:
+pip install robotframework
+INTRODUÇÃO E INSTALACAO BASICA - OK
+FUNDAMENTOS - OK
+UM PROJETO REAL E COMPLETO - OK
+Subindo a versão 1.2 do Bodytest - INÍCIO
+
+robot -d ./logs tests\login.robot
+
+
+
+#######PROJETO:
+Acordar sempre API e WEB - Estão dormindo!!
+https://bodytest-api-zuriel.herokuapp.com/
+https://bodytest-web-zuriel.herokuapp.com/
+
+
+#######APRENDIZADOS:
+robot -d ./logs "conta.robot"
+robot -d ./logs -i brownser condicionais.robot   ( TAG )
+
+robot -d ./logs -i temp tests\login.robot		( TAG )
+
+********************DICAS***************
+
+XPath TOPS!!!
+xpath=//span[text()="Configuração do Veículo"]
+xpath=(//span[text()="Características de Funcionamento"])[2]
+
+xpath=//button[text()=" Salvar "]
+
+css = input[placeholder="Sua senha secreta"]
+
+Wait For Elements State   SOMENTE LEITURA - > Novos cenários de teste
+
+
+
+
+#######HEORKU:
+heroku login
+https://signup.heroku.com/
+103544Abc*
+$ cd my-project/
+$ git init
+$ heroku git:remote -a bodytest-api-zuriel
+
+https://dashboard.heroku.com/apps
+https://data.heroku.com/
+
+
+
+#######SELETORES:
+css	CSS selector.	css=.class > #login_btn   CLASSE  .
+xpath	XPath expression.	xpath=//input[@id="login_btn"]
+text	Browser text engine.	text=Login    ID  #
+id	Element ID Attribute.	id=login_btn
+
+#######NAVEGADORES:
+chromium	Google Chrome, Microsoft Edge (since 2020), Opera
+firefox	Mozilla Firefox
+webkit	Apple Safari, Mail, AppStore on MacOS and iOS
+
+---------------------------------CONTINUAÇÃO DO CURSO - 07/2022
+https://www.mongodb.com/pt-br
+103544Abc
+
+D:\Tools\cmder
+λ heroku login
+
+https://rocklov-zuriel-web.herokuapp.com/
+
+https://www.statuscake.com/
+103544Abc*
+
+
+4. Descobrindo a Lib Requests:
+pip install robotframework-requests
+robot -d ./logs tests\TestGoogle.robot
+
+
+5. POST Sessions
+robot -d ./logs tests\LoginTests.robot
+
+7. Cobertura de Testes
+
+10. JSON Fixtures
+
+11. Test Templates 
+
+12. Suíte Template
+robot -d ./logs tests\AttempLoginTests.robot
+robot -d ./logs tests\UserLoginTest.robot
+
+13.  Escalando a massa de testes
+
+14.Deu Ruim no POST Signup?
+robot -d ./logs tests\SignupTests.robot
+
+15. Email Dinâmico com Faker
+
+*** Avançando no Backend
+
+1. Turbinando o Robot com PyMongo
+pip install pymongo
+python.exe -m pip install "pymongo[srv]"
+2.OK
+3.OK
+4. Versatilidade na massa de testes -  16:36
+5.Executando Regressão Parcial
+ cmder
+ heroku login
+ Instalar heroku CLI - Win
+ Deploy - git - página da heroku
+6. OK
+7. OK
+8. OK
+9. robot -d ./logs tests\AddEquiposTests.robot
+10. OK
+11. robot -d ./logs tests\GetEquiposTests.robot
+12. OK
+13. robot -d ./logs tests\DeleteEquiposTests.robot
+14. OK
+15. OK
+16. robot -d ./logs tests\equipos\
+	robot -d ./logs tests
+
+
+Testes no Front-end
+1. OK
+2. Instalação
+3. robot -d ./logs tests\Login.robot
+4. OK 
+5. OK css=input[placeholder*="senha"] ^Primeira palavra  $Última palava
+6. OK
+7. OK robot -d ./logs -i attempt_login tests\  -> mesma tag em vários cenários, começa do 0, não sabia.., testar
+8. OK
+9. robot -d ./logs tests/Login2.robot   OK
+10. robot -d ./logs tests/Login.robot
+ **
+Test Setup       Start Session  ->  executa a cada vez que um cenário é executado / Suite Setup -> Excecuta uma única vez para todos os cenários
+Test Teardown    Finish Session
+[Teardown]  Dentro do cenário -> Sobrepõe o master
+11. robot -d ./logs tests\EquiposTests.robot
+12. OK
+13. OK
+14. OK
+15. OK
+16. robot -d ./logs -i dup_equipo tests\EquiposTests.robot
+17. OK
+18. robot -d ./logs -i required tests\EquiposTests.robot
+19. robot -d ./logs tests\EquiposTests.robot
+20. OK
+21. robot -d ./logs tests\
+22. robot -d ./logs -i rm_equipo tests\     
+23. robot -d ./logs tests\RemoveEquipoTests.robot
+24. OK
+25. robot -d ./logs tests\CreateEquiposTests.robot
+26. robot -d ./logs tests\
+27. OK
+
+
+DevOps & Continuous Testing
+
+1.OK
+2.OK		->>    zuriel     103544
+3. putty ->> sudo docker ps
+4.  docker ps
+5.  https://medium.com/qaninja/rodando-o-jenkins-em-um-container-docker-4772986eb801
+
+	***senha jenkins:  devops  devops
+	***JENKINS: http://192.168.56.1:8080/
+	
+	*** desligar maquina VM Virtual:  sudo halt
+	*** Inicializar:  VM Virtual - incializar
+	*** Putty: login - >> docker start jenkins   /  Verificar: docker ps
+6. OK
+7.
+	
+	
+	
+
+---------------------------------------------------- FIM CURSO PAGO
+
+
+git add --all
+git commit -m "Rocklov 08/01/2022"
+git push
+ZurielJunior
+TOKEN:
+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
+
+
+
+
+--------------------------------------------------- CURSO GRATUITO:  
+COMANDOS:
+Rodar curso gratuito:
+robot -d ./logs tests\busca.robot
+
+robot -d ./logs tests\carrinho.robot
+
+1. Aula ZERO - OK
+
+2. Conhecendo o Robot Framework
+tests/busca.robot 
+@@ -0,0 +1,25 @@
+* Settings *
+
+Library     Browser
+
+* Test Cases *
+Buscar um restaurante
+
+    New Browser     chromium        False
+    New Page        http://parodifood.qaninja.academy/
+    # Checkpoint
+    Get Text        css=span    contains    Nunca foi tão engraçado pedir comida
+
+    Click           text=Estou com fome!
+    Get Text        css=h1 strong       contains    Ta na hora de matar a fome!
+
+    Click           css=.search-link
+    Fill Text       css=input[formcontrolname="searchControl"]      Debuger
+
+    Wait For Elements State     css=.place-info-box     visible     10
+    Get Text        css=.place-info-box      contains       DEBUGER KING
+
+    # think time
+    Sleep           1
+    Take Screenshot
+	
+3. Avançando com App Actions
+	OK
+
+4. XPath Locators + CSV x JSON
+	OK
+
+5. IF / ELSE + Dicas e Truques
+
+FIM!!! - MUITO BOM
+
+--------------------------------------------------- FIM CURSO GRATUITO
