@@ -2,4 +2,4 @@ robotframework
 robotframework-browser
 robotframework-requests
 pymongo
-pymonto[srv]
+pymongo[srv]
