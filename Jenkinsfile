@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Preparation'){
             steps{
-                sh 'pip install -r requiriments.txt'
+                sh 'pip install -r requirements.txt'
             }
         }
         stage('Run API Tests') {
