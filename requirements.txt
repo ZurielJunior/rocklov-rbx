@@ -1,5 +1,5 @@
 robotframework
 robotframework-browser
 robotframework-requests
-pymongo
+pymongo>=3.0
 pymongo[srv]
