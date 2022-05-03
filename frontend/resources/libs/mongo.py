@@ -4,7 +4,7 @@ from pymongo import MongoClient
 import bson
 import ssl
 
-client = MongoClient('mongodb+srv://qaninja:academy@cluster0.tb9kr.mongodb.net/Rocklov?retryWrites=true&w=majority', ssl_cert_reqs=ssl.CERT_NONE)
+client = MongoClient('mongodb+srv://qaninja:academy@cluster0.tb9kr.mongodb.net/Rocklov?retryWrites=true&w=majority', tlsCAFile=certifi.where())
 
 db = client['rocklov']
 

@@ -13,6 +13,6 @@ Create Users
     ${users}    Evaluate    json.loads($file)                                 json
 
     FOR                     ${user}           IN    @{users}
-        # Remove User By email    ${user}[email]
+        Remove User By email    ${user}[email]
         POST User Service       ${user}
     END
