@@ -39,3 +39,4 @@ Login Session
 
     Start Session
     LoginPage.Login With    ${email}    ${password}
+    User Should Be Logged In
