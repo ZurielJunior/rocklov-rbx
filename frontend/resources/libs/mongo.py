@@ -1,6 +1,7 @@
 from typing import Any
 from bson.objectid import ObjectId
-from pymongo import MongoClient 
+from pymongo import MongoClient
+import certifi
 import bson
 import ssl
 
